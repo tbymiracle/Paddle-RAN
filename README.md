@@ -12,6 +12,8 @@ The top1 error of Attention-92 model given in the paper is 4.6%, and the top1 er
 
 ### Step1: clone
 
+``` git clone https://github.com/tbymiracle/Paddle-RAN.git``` 
+
 ### Step2: training
 
 make sure the varible  *is_train = True*
