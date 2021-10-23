@@ -1,24 +1,33 @@
 # ResidualAttentionNetwork-paddle
+
+## 1.Introduction
 A paddle code about Residual Attention Network.  
 
-This code is based on the pytorch code from 
+This project is based on the paddlepaddle_V2.1 framework to reproduce ResidualAttentionNetwork.
+
+and the official code from 
 
 https://github.com/tengshaofeng/ResidualAttentionNetwork-pytorch/
 
-# paper referenced
-Residual Attention Network for Image Classification (CVPR-2017 Spotlight)
-By Fei Wang, Mengqing Jiang, Chen Qian, Shuo Yang, Chen Li, Honggang Zhang, Xiaogang Wang, Xiaoou Tang
+## 2.Accuracy
 
+The model is trained on the train set of Cifar10, and tested on the test set of Cifar10.
+The top1 error of Attention-92 model given in the paper is 4.6%, and the top1 error obtained in this project is %. 
 
-# how to train?
-first, download the data from http://www.cs.toronto.edu/~kriz/cifar.html
+## 3.Quick Start
+
+### Step1:clone
+
+### Step2:training
+
 make sure the varible 
 # 
 is_train = True
 ```  
 CUDA_VISIBLE_DEVICES=0 python train.py
 ```  
-# how to test?
+### Step3:evaluating
+
 make sure the varible 
 #
 is_train = False
@@ -26,8 +35,20 @@ is_train = False
 CUDA_VISIBLE_DEVICES=0 python train.py
 ```  
 
-# result
-1. cifar-10: Acc-95.4(Top-1 err 4.6) with ResidualAttentionModel_92_32input_update(higher than paper top-1 err 4.99)
+## 
+Align（对齐）
+ * 网络结构代码转换
+ * 权重转换 转换完成的模型链接: https://pan.baidu.com/s/1I19luoHYwiSAxm-vLqlGMQ  密码: 1cs3
+ * 模型组网正确性验证
+ * 前向对齐 ./step1-forward/
+ * 损失函数对齐 ./step2-loss/
+ * 反向对齐 ./step3-backward/
 
-# model file： 
+
+
+## Paper referenced
+Residual Attention Network for Image Classification (CVPR-2017 Spotlight) (https://arxiv.org/pdf/1704.06904v1.pdf)
+By Fei Wang, Mengqing Jiang, Chen Qian, Shuo Yang, Chen Li, Honggang Zhang, Xiaogang Wang, Xiaoou Tang
+
+
 model_92_sgd.pkl is the trained model file, accuracy of 0.954
