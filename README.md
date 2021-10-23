@@ -44,6 +44,3 @@ CUDA_VISIBLE_DEVICES=0 python train.py
 ## Paper referenced
 Residual Attention Network for Image Classification (CVPR-2017 Spotlight) (https://arxiv.org/pdf/1704.06904v1.pdf)
 By Fei Wang, Mengqing Jiang, Chen Qian, Shuo Yang, Chen Li, Honggang Zhang, Xiaogang Wang, Xiaoou Tang
-
-
-model_92_sgd.pkl is the trained model file, accuracy of 0.954
