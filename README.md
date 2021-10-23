@@ -31,8 +31,7 @@ make sure the varible  *is_train = False*
 CUDA_VISIBLE_DEVICES=0 python train.py
 ```  
 
-## 
-Align
+## Align
  * Network structure transfer
  * Weight transfer(paddle version link): 
  * Verify the network code
