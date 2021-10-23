@@ -35,9 +35,9 @@ CUDA_VISIBLE_DEVICES=0 python train.py
  * Network structure transfer
  * Weight transfer(paddle version link): 
  * Verify the network code
- * forward align : RAN/step1-forward/ (https://github.com/tbymiracle/Paddle-RAN/tree/master/RAN/step1-forward)
- * loss function : align RAN/step2-loss/ (https://github.com/tbymiracle/Paddle-RAN/tree/master/RAN/step2-loss)
- * backward align : RAN/step3-backward/ (https://github.com/tbymiracle/Paddle-RAN/tree/master/RAN/step3-backward)
+ * forward align : [RAN/step1-forward/](https://github.com/tbymiracle/Paddle-RAN/tree/master/RAN/step1-forward)
+ * loss function : [align RAN/step2-loss/](https://github.com/tbymiracle/Paddle-RAN/tree/master/RAN/step2-loss)
+ * backward align : [RAN/step3-backward/](https://github.com/tbymiracle/Paddle-RAN/tree/master/RAN/step3-backward)
 
 
 
