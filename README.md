@@ -36,9 +36,9 @@ Align（对齐）
  * 网络结构代码转换
  * 权重转换 转换完成的模型链接: https://pan.baidu.com/s/1I19luoHYwiSAxm-vLqlGMQ  密码: 1cs3
  * 模型组网正确性验证
- * 前向对齐 ./step1-forward/
- * 损失函数对齐 ./step2-loss/
- * 反向对齐 ./step3-backward/
+ * 前向对齐 RAN/step1-forward/ (https://github.com/tbymiracle/Paddle-RAN/tree/master/RAN/step1-forward)
+ * 损失函数对齐 RAN/step2-loss/ (https://github.com/tbymiracle/Paddle-RAN/tree/master/RAN/step2-loss)
+ * 反向对齐 RAN/step3-backward/ (https://github.com/tbymiracle/Paddle-RAN/tree/master/RAN/step3-backward)
 
 
 
