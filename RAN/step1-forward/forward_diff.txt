@@ -1,0 +1,9 @@
+[2021/10/23 16:16:30] root INFO: logits: 
+[2021/10/23 16:16:30] root INFO: 	mean diff: check passed: True, value: 1.4245276815927355e-06
+[2021/10/23 16:16:30] root INFO: diff check passed
+[2021/10/23 16:16:30] root INFO: loss: 
+[2021/10/23 16:16:30] root INFO: 	mean diff: check passed: True, value: 1.9073486328125e-06
+[2021/10/23 16:16:30] root INFO: diff check passed
+[2021/10/23 16:16:30] root INFO: backward: 
+[2021/10/23 16:16:30] root INFO: 	mean diff: check passed: True, value: 9.5367431640625e-07
+[2021/10/23 16:16:30] root INFO: diff check passed
