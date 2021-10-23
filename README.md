@@ -20,13 +20,15 @@ The top1 error of Attention-92 model given in the paper is 4.6%, and the top1 er
 
 ### Step2:training
 
-make sure the varible  _is_train = True _
+make sure the varible  
+*is_train = True*
 ```  
 CUDA_VISIBLE_DEVICES=0 python train.py
 ```  
 ### Step3:evaluating
 
-make sure the varible   _is_train = False _
+make sure the varible   
+*is_train = False*
 ```  
 CUDA_VISIBLE_DEVICES=0 python train.py
 ```  
