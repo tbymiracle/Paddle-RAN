@@ -1,60 +1,72 @@
-# ResidualAttentionNetwork-pytorch
-A pytorch code about Residual Attention Network.  
+# ResidualAttentionNetwork-Paddle
 
-This code is based on two  projects from 
+## 1.Introduction
+This project is based on the paddlepaddle_V2.1 framework to reproduce ResidualAttentionNetwork and the [official code](https://github.com/tengshaofeng/ResidualAttentionNetwork-pytorch/) of pytoch.
 
-https://github.com/liudaizong/Residual-Attention-Network 
-and 
-https://github.com/fwang91/residual-attention-network/blob/master/imagenet_model/Attention-92-deploy.prototxt
+## 2.Result
 
-The first project is the pytorch code, but i think some network detail is not good. So I modify it according to 
-the architechure of the Attention-92-deploy.prototxt.
-
-And I also add the ResidualAttentionModel_92 for training imagenet,
-ResidualAttentionModel_448input for larger image input,
-and ResidualAttentionModel_92_32input_update for training cifar10.
+The model is trained on the train set of CIFAR10, and tested on the test set of CIFAR10. The dataset can be downloaded at [here](http://www.cs.toronto.edu/~kriz/cifar.html).
 
 
 
-# paper referenced
-Residual Attention Network for Image Classification (CVPR-2017 Spotlight)
-By Fei Wang, Mengqing Jiang, Chen Qian, Shuo Yang, Chen Li, Honggang Zhang, Xiaogang Wang, Xiaoou Tang
+ Version | Accuracy | Top1 error 
+ ---- | ----- | ----- 
+ paper | 95.01% | 4.99%
+ pytorch version(official) | 95.4% |  4.6%
+ paddle version(ours)| 95.69%  | 4.31%
 
 
-# how to train?
-first, download the data from http://www.cs.toronto.edu/~kriz/cifar.html
-make sure the varible 
-# 
-is_train = True
-#
+
+<img src="https://github.com/tbymiracle/Paddle-RAN/blob/master/325621635038522_.pic_hd.jpg" width="600"/>
+
+
+
+The model file we trained (accuracy of 95.69%)
+
+
+Link: https://pan.baidu.com/s/1lqqQ7nSoEVLnznIqwr6kkA  Password: cgcw
+
+## 3.Requirements
+
+ * Hardware：GPU（Tesla V100-32G is recommended）
+ * Framework:  PaddlePaddle >= 2.1.2
+
+
+## 4.Quick Start
+
+### Step1: Clone
+
+``` 
+git clone https://github.com/tbymiracle/Paddle-RAN.git
+cd Paddle-RAN/RAN
+``` 
+
+### Step2: Training
+
+Make sure the varible  `is_train = True`
+```  
 CUDA_VISIBLE_DEVICES=0 python train.py
+```  
+### Step3: Evaluating
 
-CUDA_VISIBLE_DEVICES=0 python train_mixup.py(with mixup) 
-
-you can train on ResidualAttentionModel_56 or ResidualAttentionModel_448input, only should modify the code in train.py
-from  "from model.residual_attention_network import ResidualAttentionModel_92 as ResidualAttentionModel" to
-"from model.residual_attention_network import ResidualAttentionModel_56 as ResidualAttentionModel"
-
-# how to test?
-make sure the varible 
-#
-is_train = False
-#
+Make sure the varible  `is_train = False`
+```  
 CUDA_VISIBLE_DEVICES=0 python train.py
+```  
 
-CUDA_VISIBLE_DEVICES=0 python train_mixup.py(with mixup) 
+## 5.Align
 
-# result
-1. cifar-10: Acc-95.4(Top-1 err 4.6) with ResidualAttentionModel_92_32input_update(higher than paper top-1 err 4.99)
+We use the [`repord_log`](https://github.com/WenmuZhou/reprod_log) tool to align.
+ * Network structure transfer.
+ * Weight transfer(paddle version link): https://pan.baidu.com/s/1l4uZJxOJjWjCDbK_-2bnNg  Password: 4hle
+ * Verify the network.
+ * Forward align : [RAN/step1-forward/](https://github.com/tbymiracle/Paddle-RAN/tree/master/RAN/step1-forward)
+ * Loss function align : [RAN/step2-loss/](https://github.com/tbymiracle/Paddle-RAN/tree/master/RAN/step2-loss)
+ * Backward align : [RAN/step3-backward/](https://github.com/tbymiracle/Paddle-RAN/tree/master/RAN/step3-backward)
+ * train align.
 
-2. cifar-10: Acc-96.65(Top-1 err 3.35) with ResidualAttentionModel_92_32input_update(with mixup).
 
-3. cifar-10: Acc-96.84(Top-1 err 3.16) with ResidualAttentionModel_92_32input_update(with mixup, with simpler attention module).
 
-Thanks to @PistonY, who give me the advice of mixup.
-More details for mixup you can reference the project https://github.com/facebookresearch/mixup-cifar10
-
-the paper only give the archietcture details of attention_92 for imagenet with 224 input but not for cifar10. So I build the net following my understanding. I have not struggled for optimizing the code, so maybe you can do better based my code.
-
-# model file： 
-model_92_sgd.pkl is the trained model file, accuracy of 0.954
+## Paper referenced
+[Residual Attention Network for Image Classification (CVPR-2017 Spotlight)](https://arxiv.org/pdf/1704.06904v1.pdf)
+By Fei Wang, Mengqing Jiang, Chen Qian, Shuo Yang, Chen Li, Honggang Zhang, Xiaogang Wang, Xiaoou Tang.
