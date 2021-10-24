@@ -45,12 +45,12 @@ CUDA_VISIBLE_DEVICES=0 python train.py
 ## Align
 
 We use the [`repord_log`](https://github.com/WenmuZhou/reprod_log) tool to align.
- * Network structure transfer
+ * Network structure transfer.
  * Weight transfer(paddle version link): 
- * Verify the network code
- * forward align : [RAN/step1-forward/](https://github.com/tbymiracle/Paddle-RAN/tree/master/RAN/step1-forward)
- * loss function align : [RAN/step2-loss/](https://github.com/tbymiracle/Paddle-RAN/tree/master/RAN/step2-loss)
- * backward align : [RAN/step3-backward/](https://github.com/tbymiracle/Paddle-RAN/tree/master/RAN/step3-backward)
+ * Verify the network.
+ * Forward align : [RAN/step1-forward/](https://github.com/tbymiracle/Paddle-RAN/tree/master/RAN/step1-forward)
+ * Loss function align : [RAN/step2-loss/](https://github.com/tbymiracle/Paddle-RAN/tree/master/RAN/step2-loss)
+ * Backward align : [RAN/step3-backward/](https://github.com/tbymiracle/Paddle-RAN/tree/master/RAN/step3-backward)
 
 
 
