@@ -3,10 +3,16 @@
 ## 1.Introduction
 This project is based on the paddlepaddle_V2.1 framework to reproduce ResidualAttentionNetwork and the [official code](https://github.com/tengshaofeng/ResidualAttentionNetwork-pytorch/) of pytoch.
 
-## 2.Accuracy
+## 2.Result
 
 The model is trained on the train set of Cifar10, and tested on the test set of Cifar10.
-The top1 error of Attention-92 model given in the paper is 4.6%, and the top1 error obtained in this project is %. 
+
+
+ model  | top1 error  
+ ---- | ----- 
+ paper  | 4.99%
+ pytorch version(official)  |  4.6%
+ paddle version(ours)  | 4.31%
 
 ## 3.Quick Start
 
@@ -28,6 +34,8 @@ CUDA_VISIBLE_DEVICES=0 python train.py
 ```  
 
 ## Align
+
+We use the `repord_log` to align.
  * Network structure transfer
  * Weight transfer(paddle version link): 
  * Verify the network code
