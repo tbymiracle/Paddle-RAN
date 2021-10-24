@@ -8,6 +8,7 @@ This project is based on the paddlepaddle_V2.1 framework to reproduce ResidualAt
 The model is trained on the train set of CIFAR10, and tested on the test set of CIFAR10. The dataset can be downloaded at [here](http://www.cs.toronto.edu/~kriz/cifar.html).
 
 
+
  Version | Accuracy | Top1 error 
  ---- | ----- | ----- 
  paper | 95.01% | 4.99%
@@ -15,13 +16,15 @@ The model is trained on the train set of CIFAR10, and tested on the test set of 
  paddle version(ours)| 95.69%  | 4.31%
 
 
+
 <img src="https://github.com/tbymiracle/Paddle-RAN/blob/master/325621635038522_.pic_hd.jpg" width="600"/>
+
 
 
 The model file we trained (accuracy of 95.69%)
 
 
-link: https://pan.baidu.com/s/1lqqQ7nSoEVLnznIqwr6kkA  password: cgcw
+Link: https://pan.baidu.com/s/1lqqQ7nSoEVLnznIqwr6kkA  password: cgcw
 
 ## 3.Requirements
 
