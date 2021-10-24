@@ -24,7 +24,10 @@ The model is trained on the train set of Cifar10, and tested on the test set of 
 
 ### Step1: Clone
 
-``` git clone https://github.com/tbymiracle/Paddle-RAN.git``` 
+``` 
+git clone https://github.com/tbymiracle/Paddle-RAN.git
+cd Paddle-RAN/RAN
+``` 
 
 ### Step2: Training
 
