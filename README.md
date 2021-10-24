@@ -57,6 +57,11 @@ CUDA_VISIBLE_DEVICES=0 python train.py
 ## 5.Align
 
 We use the [`repord_log`](https://github.com/WenmuZhou/reprod_log) tool to align.
+
+```  
+python check_log_diff.py #check
+```  
+
  * Network structure transfer.
  * Weight transfer(paddle version link): https://pan.baidu.com/s/1l4uZJxOJjWjCDbK_-2bnNg  Password: 4hle
  * Verify the network.
