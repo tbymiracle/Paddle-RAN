@@ -5,14 +5,14 @@ This project is based on the paddlepaddle_V2.1 framework to reproduce ResidualAt
 
 ## 2.Result
 
-The model is trained on the train set of CIFAR10, and tested on the test set of CIFAR10. The dataset can be downloaded at [here](http://www.cs.toronto.edu/~kriz/cifar.html)
+The model is trained on the train set of CIFAR10, and tested on the test set of CIFAR10. The dataset can be downloaded at [here](http://www.cs.toronto.edu/~kriz/cifar.html).
 
 
- model  | top1 error  
- ---- | ----- 
- paper  | 4.99%
- pytorch version(official)  |  4.6%
- paddle version(ours)  | 4.31%
+ Model | Accuracy | Top1 error 
+ ---- | ----- | ----- 
+ paper | 95.01% | 4.99%
+ pytorch version(official) | 95.4% |  4.6%
+ paddle version(ours)| 95.69%  | 4.31%
 
 ## 3.Requirements
 
