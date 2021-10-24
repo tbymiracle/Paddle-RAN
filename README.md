@@ -61,7 +61,7 @@ CUDA_VISIBLE_DEVICES=0 python test.py
 We use the [`repord_log`](https://github.com/WenmuZhou/reprod_log) tool to align.
 
 ```  
-python check_log_diff.py # check diff of all the steps(step1 - step4).
+python check_log_diff.py # check diff of all the steps (step1 - step4).
 ```  
 
  * Network structure transfer.
