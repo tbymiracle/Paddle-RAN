@@ -5,7 +5,7 @@ This project is based on the paddlepaddle_V2.1 framework to reproduce ResidualAt
 
 ## 2.Result
 
-The model is trained on the train set of CIFAR10, and tested on the test set of CIFAR10. The dataset can be downloaded at [](http://www.cs.toronto.edu/~kriz/cifar.html)
+The model is trained on the train set of CIFAR10, and tested on the test set of CIFAR10. The dataset can be downloaded at [here](http://www.cs.toronto.edu/~kriz/cifar.html)
 
 
  model  | top1 error  
