@@ -22,13 +22,13 @@ The model is trained on the train set of Cifar10, and tested on the test set of 
 
 ### Step2: training
 
-make sure the varible  *is_train = True*
+make sure the varible  **is_train = True**
 ```  
 CUDA_VISIBLE_DEVICES=0 python train.py
 ```  
 ### Step3: evaluating
 
-make sure the varible  *is_train = False*
+make sure the varible  **is_train = False**
 ```  
 CUDA_VISIBLE_DEVICES=0 python train.py
 ```  
