@@ -1,8 +1,8 @@
 
 import numpy as np
-from .bl_paddle import ResidualBlock
-from .am_paddle import AttentionModule_stage1, AttentionModule_stage2, AttentionModule_stage3, AttentionModule_stage0
-from .am_paddle import AttentionModule_stage1_cifar, AttentionModule_stage2_cifar, AttentionModule_stage3_cifar
+from .basic_layers import ResidualBlock
+from .attention_modules import AttentionModule_stage1, AttentionModule_stage2, AttentionModule_stage3, AttentionModule_stage0
+from .attention_modules import AttentionModule_stage1_cifar, AttentionModule_stage2_cifar, AttentionModule_stage3_cifar
 import paddle.nn as nn
 import paddle
 

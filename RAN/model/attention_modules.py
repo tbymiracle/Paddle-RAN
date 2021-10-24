@@ -5,7 +5,7 @@
 # from torch.autograd import Variable
 import numpy as np
 
-from .bl_paddle import ResidualBlock
+from .basic_layers import ResidualBlock
 import paddle.nn as nn
 
 class AttentionModule_pre(nn.Layer):
