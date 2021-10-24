@@ -18,8 +18,8 @@ The model is trained on the train set of CIFAR10, and tested on the test set of 
 <img src="https://github.com/tbymiracle/Paddle-RAN/blob/master/325621635038522_.pic_hd.jpg" width="600"/>
 
 
-The model file we trained (accuracy of 95.69%): 
-Baidu download link: https://pan.baidu.com/s/1lqqQ7nSoEVLnznIqwr6kkA  password: cgcw
+The model file we trained (accuracy of 95.69%)
+Link: https://pan.baidu.com/s/1lqqQ7nSoEVLnznIqwr6kkA  password: cgcw
 
 ## 3.Requirements
 
