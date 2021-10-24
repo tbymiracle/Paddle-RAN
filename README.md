@@ -1,4 +1,4 @@
-# ResidualAttentionNetwork-paddle
+# ResidualAttentionNetwork-Paddle
 
 ## 1.Introduction
 This project is based on the paddlepaddle_V2.1 framework to reproduce ResidualAttentionNetwork and the [official code](https://github.com/tengshaofeng/ResidualAttentionNetwork-pytorch/) of pytoch.
