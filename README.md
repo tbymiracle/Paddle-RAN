@@ -14,6 +14,12 @@ The model is trained on the train set of Cifar10, and tested on the test set of 
  pytorch version(official)  |  4.6%
  paddle version(ours)  | 4.31%
 
+## 3.Requirements
+
+ * Hardware：GPU（Tesla V100-32G is recommended）
+ * Framework: PaddlePaddle >= 2.1.2
+
+
 ## 3.Quick Start
 
 ### Step1: Clone
