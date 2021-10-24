@@ -16,19 +16,19 @@ The model is trained on the train set of Cifar10, and tested on the test set of 
 
 ## 3.Quick Start
 
-### Step1: clone
+### Step1: Clone
 
 ``` git clone https://github.com/tbymiracle/Paddle-RAN.git``` 
 
-### Step2: training
+### Step2: Training
 
-make sure the varible  `is_train = True`
+Make sure the varible  `is_train = True`
 ```  
 CUDA_VISIBLE_DEVICES=0 python train.py
 ```  
-### Step3: evaluating
+### Step3: Evaluating
 
-make sure the varible  `is_train = False`
+Make sure the varible  `is_train = False`
 ```  
 CUDA_VISIBLE_DEVICES=0 python train.py
 ```  
