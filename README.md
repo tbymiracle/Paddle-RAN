@@ -14,8 +14,7 @@ The model is trained on the train set of CIFAR10, and tested on the test set of 
  pytorch version(official) | 95.4% |  4.6%
  paddle version(ours)| 95.69%  | 4.31%
 
-图片  
-<img src="https://github.com/tbymiracle/Paddle-RAN/blob/master/325621635038522_.pic_hd.jpg" width="150" alt="Accuracy"/>
+<img src="https://github.com/tbymiracle/Paddle-RAN/blob/master/325621635038522_.pic_hd.jpg" width="1500" alt="Accuracy"/>
 
 ## 3.Requirements
 
