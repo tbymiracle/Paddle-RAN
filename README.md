@@ -14,6 +14,9 @@ The model is trained on the train set of CIFAR10, and tested on the test set of 
  pytorch version(official) | 95.4% |  4.6%
  paddle version(ours)| 95.69%  | 4.31%
 
+图片  
+![图片名称](https://www.baidu.com/img/bd_logo1.png)  
+
 ## 3.Requirements
 
  * Hardware：GPU（Tesla V100-32G is recommended）
@@ -51,6 +54,7 @@ We use the [`repord_log`](https://github.com/WenmuZhou/reprod_log) tool to align
  * Forward align : [RAN/step1-forward/](https://github.com/tbymiracle/Paddle-RAN/tree/master/RAN/step1-forward)
  * Loss function align : [RAN/step2-loss/](https://github.com/tbymiracle/Paddle-RAN/tree/master/RAN/step2-loss)
  * Backward align : [RAN/step3-backward/](https://github.com/tbymiracle/Paddle-RAN/tree/master/RAN/step3-backward)
+ * train align.
 
 
 
