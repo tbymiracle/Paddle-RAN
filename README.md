@@ -17,6 +17,10 @@ The model is trained on the train set of CIFAR10, and tested on the test set of 
 
 <img src="https://github.com/tbymiracle/Paddle-RAN/blob/master/325621635038522_.pic_hd.jpg" width="600"/>
 
+
+The model file we trained (accuracy of 95.69%): 
+链接: https://pan.baidu.com/s/1lqqQ7nSoEVLnznIqwr6kkA  密码: cgcw
+
 ## 3.Requirements
 
  * Hardware：GPU（Tesla V100-32G is recommended）
