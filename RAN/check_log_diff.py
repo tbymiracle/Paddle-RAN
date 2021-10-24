@@ -10,6 +10,8 @@ if __name__ == "__main__":
     info4 = diff_helper.load_info("./loss_torch.npy")
     info5 = diff_helper.load_info("./backward_paddle.npy")
     info6 = diff_helper.load_info("./backward_torch.npy")
+    info7 = diff_helper.load_info("./acc_paddle.npy")
+    info8 = diff_helper.load_info("./acc_torch.npy")
 
     diff_helper.compare_info(info1, info2)
     diff_helper.report(
@@ -22,3 +24,7 @@ if __name__ == "__main__":
     diff_helper.compare_info(info5, info6)
     diff_helper.report(
         diff_method="mean", diff_threshold=1e-6, path="./backward_diff.txt")
+
+    diff_helper.compare_info(info7, info8)
+    diff_helper.report(
+        diff_method="mean", diff_threshold=1e-5, path="./acc_diff.txt")
