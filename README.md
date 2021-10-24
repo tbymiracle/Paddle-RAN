@@ -15,7 +15,7 @@ The model is trained on the train set of CIFAR10, and tested on the test set of 
  paddle version(ours)| 95.69%  | 4.31%
 
 图片  
-![图片名称](https://www.baidu.com/img/bd_logo1.png)  
+![图片名称](https://github.com/tbymiracle/Paddle-RAN/blob/master/325621635038522_.pic_hd.jpg)  
 
 ## 3.Requirements
 
