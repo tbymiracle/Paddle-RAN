@@ -19,12 +19,16 @@ The model is trained on the train set of CIFAR10, and tested on the test set of 
 
 <img src="https://github.com/tbymiracle/Paddle-RAN/blob/master/325621635038522_.pic_hd.jpg" width="600"/>
 
+The final model file of the pytorch version (accuracy of 95.4%)
 
+Link: https://pan.baidu.com/s/1GfHo25O-WUWz2X8uzjWA2A  Password: 8ukd
 
 The model file we trained (accuracy of 95.69%)
 
-
 Link: https://pan.baidu.com/s/1lqqQ7nSoEVLnznIqwr6kkA  Password: cgcw
+
+
+Put these two model files in Paddle-RAN/RAN/.
 
 ## 3.Requirements
 
@@ -43,15 +47,13 @@ cd Paddle-RAN/RAN
 
 ### Step2: Training
 
-Make sure the varible  `is_train = True`
 ```  
 CUDA_VISIBLE_DEVICES=0 python train.py
 ```  
 ### Step3: Evaluating
 
-Make sure the varible  `is_train = False`
 ```  
-CUDA_VISIBLE_DEVICES=0 python train.py
+CUDA_VISIBLE_DEVICES=0 python test.py
 ```  
 
 ## 5.Align
@@ -59,7 +61,7 @@ CUDA_VISIBLE_DEVICES=0 python train.py
 We use the [`repord_log`](https://github.com/WenmuZhou/reprod_log) tool to align.
 
 ```  
-python check_log_diff.py #check
+python check_log_diff.py # check diff of all the steps(step1 - step4).
 ```  
 
  * Network structure transfer.
@@ -68,7 +70,7 @@ python check_log_diff.py #check
  * Forward align : [RAN/step1-forward/](https://github.com/tbymiracle/Paddle-RAN/tree/master/RAN/step1-forward)
  * Loss function align : [RAN/step2-loss/](https://github.com/tbymiracle/Paddle-RAN/tree/master/RAN/step2-loss)
  * Backward align : [RAN/step3-backward/](https://github.com/tbymiracle/Paddle-RAN/tree/master/RAN/step3-backward)
- * train align.
+ * train align : [RAN/step4-acc/](https://github.com/tbymiracle/Paddle-RAN/tree/master/RAN/step4-acc)
 
 
 
