@@ -32,7 +32,7 @@ Link: https://pan.baidu.com/s/1lqqQ7nSoEVLnznIqwr6kkA  Password: cgcw
  * Framework:  PaddlePaddle >= 2.1.2
 
 
-## 3.Quick Start
+## 4.Quick Start
 
 ### Step1: Clone
 
@@ -54,7 +54,7 @@ Make sure the varible  `is_train = False`
 CUDA_VISIBLE_DEVICES=0 python train.py
 ```  
 
-## Align
+## 5.Align
 
 We use the [`repord_log`](https://github.com/WenmuZhou/reprod_log) tool to align.
  * Network structure transfer.
