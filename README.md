@@ -25,7 +25,7 @@ Link: https://pan.baidu.com/s/1GfHo25O-WUWz2X8uzjWA2A  Password: 8ukd
 
 The model file we trained (accuracy of 95.69%)
 
-Link: https://pan.baidu.com/s/1zXIjR4Tb_Pzk9IMEVTNJKA  Password: z7oi
+Link: https://pan.baidu.com/s/1hxNrwfauaKZo53e-CQ_j8w  Password: 9rd3
 
 
 Put these two model files in Paddle-RAN/RAN/.
