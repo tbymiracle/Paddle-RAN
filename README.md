@@ -19,9 +19,13 @@ The model is trained on the train set of CIFAR10, and tested on the test set of 
 
 <img src="https://github.com/tbymiracle/Paddle-RAN/blob/master/325621635038522_.pic_hd.jpg" width="600"/>
 
-The final model file of the pytorch version (accuracy of 95.4%)
+The given model file of the pytorch version (accuracy of 95.4%)
 
 Link: https://pan.baidu.com/s/1GfHo25O-WUWz2X8uzjWA2A  Password: 8ukd
+
+The given model file of the paddle version (accuracy of 95.4%)
+
+Link: https://pan.baidu.com/s/1SRz0QP2gYSeimUwF-dLh5A  Password: nmcd
 
 The model file we trained (accuracy of 95.69%)
 
